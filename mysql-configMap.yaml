@@ -1,7 +1,7 @@
 apiVersion : v1
 kind : ConfigMap
 metadata:
-  name : db-config
+  name : db-config-jpa-bcrypt
 data:
   host : mysql
-  dbName: users_detail
+  dbName: user_detail
