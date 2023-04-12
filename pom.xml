@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.fastturtle</groupId>
 	<artifactId>jpa-bcrypt-practice</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.2-MYSQL</version>
 	<name>jpa-bcrypt-practice</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -46,8 +46,8 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
 			<version>8.0.25</version>
+			<scope>runtime</scope>
 		</dependency>
 		
 		<dependency>
@@ -67,6 +67,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+                <image>
+                    <name>nikoleye/${project.artifactId}:${project.version}</name>
+                </image>
+                <pullPolicy>IF_NOT_PRESENT</pullPolicy>
+            </configuration>
 			</plugin>
 		</plugins>
 	</build>
