@@ -1,3 +1,7 @@
+CREATE DATABASE IF NOT EXISTS user_detail;
+
+USE user_detail;
+
 DROP TABLE IF EXISTS users;
 
 CREATE TABLE users(
