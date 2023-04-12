@@ -38,9 +38,16 @@
 			<optional>true</optional>
 		</dependency>
 		
-		<dependency>
+		<!--<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
+		</dependency>-->
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+			<version>8.0.25</version>
 		</dependency>
 		
 		<dependency>
