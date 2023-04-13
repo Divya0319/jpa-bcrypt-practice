@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.fastturtle</groupId>
 	<artifactId>jpa-bcrypt-practice</artifactId>
-	<version>1.0.2-MYSQL</version>
+	<version>1.0.4-MYSQL</version>
 	<name>jpa-bcrypt-practice</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>

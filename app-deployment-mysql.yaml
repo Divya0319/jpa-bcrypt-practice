@@ -23,7 +23,7 @@ spec:
         app: jpa-bcrypt-mysql
     spec:
       containers:
-      - image: nikoleye/jpa-bcrypt-practice:1.0.2-MYSQL
+      - image: nikoleye/jpa-bcrypt-practice:1.0.4-MYSQL
         imagePullPolicy: IfNotPresent
         name: jpa-bcrypt-mysql
         resources:
